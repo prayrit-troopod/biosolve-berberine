@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanSemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanThin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanThinItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanLightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanSemiBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: italic;
+    font-weight: 800;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanExtraBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanBlack.woff') format('woff');
+}
+@font-face {
+    font-family: 'Century Gothic Paneuropean';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Century Gothic Paneuropean'), url('https://fonts.cdnfonts.com/s/53036/CenturyGothicPaneuropeanBlackItalic.woff') format('woff');
+}
+
+
