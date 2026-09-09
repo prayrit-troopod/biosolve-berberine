@@ -6803,18 +6803,20 @@ Berberine
 
     #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table {
       width: 100%;
+      min-width: 340px;
       border-collapse: separate;
       border-spacing: 0;
       table-layout: fixed;
       color: rgb(var(--color-foreground, 0, 0, 0));
       font-family: Poppins, "Century Gothic", sans-serif;
-      font-size: 1.125rem;
+      font-size: clamp(13px, 3.2vw, 17px);
       line-height: 1.5;
     }
 
     #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table th,
     #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table td {
-      padding: 1.2rem 1rem;
+      padding: 0.85em 0.6em;
+      overflow-wrap: break-word;
       border: 0;
       border-bottom: 1px solid rgb(var(--color-border, 230, 230, 230));
       vertical-align: middle;
@@ -6825,7 +6827,7 @@ Berberine
       padding-bottom: 0.9rem;
       background: #ffffff;
       color: rgb(var(--color-text-heading, 0, 0, 0));
-      font-size: 1.125rem;
+      font-size: 1em;
       font-weight: 700;
       line-height: 1.25;
       text-align: center;
@@ -6834,7 +6836,7 @@ Berberine
     #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table thead th:first-child {
       width: 29%;
       color: rgb(var(--color-text-heading, 0, 0, 0));
-      font-size: 1.125rem;
+      font-size: 1em;
       font-weight: 400;
       letter-spacing: 0;
       text-align: left;
@@ -6893,15 +6895,15 @@ Berberine
 
     #shopify-section-template--27341034586417__custom_liquid_jT468D .status-icon {
       display: inline-flex;
-      flex: 0 0 1.7rem;
+      flex: 0 0 clamp(20px, 5vw, 27px);
       align-items: center;
       justify-content: center;
-      width: 1.7rem;
-      height: 1.7rem;
+      width: clamp(20px, 5vw, 27px);
+      height: clamp(20px, 5vw, 27px);
       margin: 0;
       border-radius: 50%;
       font-family: Arial, sans-serif;
-      font-size: 1.05rem;
+      font-size: clamp(12px, 3vw, 16px);
       font-weight: 700;
       line-height: 1;
     }
@@ -6921,10 +6923,10 @@ Berberine
       border: 1.5px solid #818181;
       background: #ffffff;
       color: #686868;
-      font-size: 1.05rem;
+      font-size: clamp(12px, 3vw, 16px);
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 749px) {
       #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-title {
         font-size: clamp(1.75rem, 8vw, 2.35rem);
       }
@@ -6935,24 +6937,23 @@ Berberine
       }
 
       #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table {
-        font-size: 1rem;
-        line-height: 1.5;
+        line-height: 1.45;
       }
 
       #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table th,
       #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table td {
-        padding: 1rem 0.35rem;
-        overflow-wrap: normal;
+        padding: 0.8em 0.45em;
+        overflow-wrap: break-word;
         word-break: normal;
       }
 
       #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table thead th {
-        font-size: 0.95rem;
+        font-size: 1em;
       }
 
       #shopify-section-template--27341034586417__custom_liquid_jT468D .biosolve-comparison-table thead th:first-child {
         width: 34%;
-        font-size: 1rem;
+        font-size: 1em;
       }
 
       #shopify-section-template--27341034586417__custom_liquid_jT468D .column-kicker {
@@ -6960,10 +6961,10 @@ Berberine
       }
 
       #shopify-section-template--27341034586417__custom_liquid_jT468D .status-icon {
-        flex-basis: 1.55rem;
-        width: 1.55rem;
-        height: 1.55rem;
-        font-size: 0.95rem;
+        flex-basis: clamp(20px, 5vw, 27px);
+        width: clamp(20px, 5vw, 27px);
+        height: clamp(20px, 5vw, 27px);
+        font-size: clamp(12px, 3vw, 16px);
       }
     }
   </style>
